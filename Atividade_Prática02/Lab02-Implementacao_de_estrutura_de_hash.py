@@ -119,7 +119,7 @@ def interface_usuario():
             print("Saindo...")
             break
         else:
-            print("Opção inválida! Por favor, escolha entre 1 e 4.")
+            print("Opção inválida! Por favor, escolha entre 1 e 6.")
 
 interface_usuario()
 
