@@ -1,4 +1,4 @@
-class Noh_TabelaHash:
+class NohTabelaHash:
     def __init__ (self, chave):
         self.chave = chave
         self.proximo = None
@@ -16,13 +16,13 @@ class TabelaHash:
         indice = self.funcao_hash(chave)
         
         if self.tabela[indice] is None:
-            self.tabela[indice] = Noh_TabelaHash(chave)
+            self.tabela[indice] = NohTabelaHash(chave)
         else:
             atual = self.tabela[indice]
 
             while atual.proximo:
                 atual = atual.proximo
-            atual.proximo = Noh_TabelaHash(chave)
+            atual.proximo = NohTabelaHash(chave)
 
     def buscar(self, chave):
         indice = self.funcao_hash(chave)
