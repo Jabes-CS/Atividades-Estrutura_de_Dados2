@@ -69,9 +69,9 @@ def interface_usuario():
         print("\nMenu:")
         print("1-> Inserir uma linguagem")
         print("2-> Remover uma linguagem")
-        print("3-> Buscar uma lnguagem")
+        print("3-> Buscar uma linguagem")
         print("4-> Listar todas as linguagens cadastradas")
-        print("5-> Listar lingugens removidas")
+        print("5-> Listar linguagens removidas")
         print("6-> Sair do programa")
 
         escolha = input("Escolha uma opção: ")
